@@ -60,8 +60,7 @@
 }
 #page5 .logo5 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
+    width: 10%;
     margin-top: 20px;
 }
 #page5 #left {
@@ -135,8 +134,7 @@
 }
 #page6 .logo6 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
+    width: 10%;
     margin: 20px;
 }
 #page6 .upTit6 {
@@ -222,8 +220,7 @@
 }
 #page7 .logo7 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
+    width: 10%;
     margin: 20px;
 }
 #page7 .title7 {
@@ -232,19 +229,17 @@
     margin-left: 30px;
 }
 #page7 .middleTit7 {
-    max-width: 300px;
-    width: 70%;
+    /* max-width: 300px; */
+    width: 30%;
 }
  #page7 .content7 {
     display: flex;
     margin: -110px 0 60px 80px;
 }
-#page7 .brand {
-    max-width: 590px; 
+#page7 .brand { 
     width: 85%;
 }
 #page7 .star {
-    max-width: 430px; 
     width: 85%;
     margin: 60px 0 0 300px; 
 }
@@ -252,9 +247,6 @@
     width: 100%;
 }
 /* 10.20 add */
-#page7 .mo .cheeze {
-    margin-left: 4s0px;
-}
 #page7 .mo .mo_content7 {
     display: flex;
     width: 100%;
@@ -286,8 +278,7 @@
 }
 #page8 .logo8 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
+    width: 10%;
     margin: 20px;
 }
 #page8 .middleTit8 {
@@ -310,13 +301,6 @@
 .review-swiper-pagination {
     margin-top: 25px;
 }
-#pg8-wrap .review-swiper-pagination-bullet { 
-    background-color: #A6C5B1 !important;
-}
-#pg8-wrap .review-swiper-pagination-bullet-active {
-    background-color: white !important;
-    border: 1px solid #008236 !important;
-}
 #page8 .bottomTit8 {
     max-width: 490px;
     width: 70%;
@@ -325,11 +309,81 @@
 .customer-swiper-container img {
     width: 100%;
 }
-
+/* 10.21 add */
+#page9 {
+    background: #222222;
+    padding-bottom: 100px;
+}
+#page9 .logo9 {
+    position: absolute;
+    width: 7%;
+    margin: 20px;
+}
+#page9 .menu {
+    text-align: center;
+}
+.menuTit {
+    width: 60%;
+    margin: 50px 0 30px;
+}
+.pg9-tit {
+    text-align: center;
+    margin: 70px 0;
+}
+.kimchiTit {
+    width: 9%;
+}
+.kimchi-swiper-container, .rice-swiper-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.kimchi-swiper-container img, .rice-swiper-container img, .side-swiper-container img {
+    width: 100%;
+}
+.title9 {
+    width: 12%;
+}
+.title9_2 {
+    width: 15%;
+}
+.kimchisoup-container {
+    display: flex;
+}
+.kimchisoup-container img {
+    width: 72%;
+}
+.kimchisoup-container div:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+.kimchisoup-container div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.duruchigi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duruchigi-container img {
+    width: 91%;
+}
+.duruchigi-container div {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+#page14 img {
+    width: 100%;
+}
 @media (max-width: 480px) {
     #page5 {
         padding:0;
         display: block;
+    }
+    #page5 .logo5 {
+        width:20%;
     }
     #page5 #left, #page5 #right {
         display: none !important;
@@ -337,17 +391,11 @@
    .mo {
         display: block !important;
     }
-    #page5 .logo5 {
-        max-width:50px;
-        width: 70%;
-        margin-left: 20px;
-    }
     #page6 {
         padding: 10px;
     }
     #page6 .logo6 {
-        max-width:50px;
-        width: 70%;
+        width: 20%;
         margin: 10px 0 0 10px;
     } 
     #page6 .frame6 {
@@ -371,7 +419,7 @@
         margin: 0;
     }
     #page7 .middleTit7 {
-        max-width: 150px;
+        width: 40%;
         position: absolute;
         margin-top: 70px;
         margin-left: -75px;
@@ -383,8 +431,7 @@
       padding: 10px;  
     }
     #page8 .logo8 {
-      max-width: 50px;
-      width: 70%;
+      width: 15%;
       margin: 10px;
     }
     #page8 .middleTit8 {
@@ -413,21 +460,40 @@
     #page5 .upTit5 {
         margin-left: 90px;
     }
-    #page5 
+    #page5 .pic2 {
+        margin-left: 50px;
+    }
+    #page5 .middleTit5 {
+        margin-left: 80px;
+    }
+    #page5 .bottomTit5 {
+        width: 80%;
+        margin: -40px 0 0 10px;
+    }
     .frame6 .upTit6 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
     .store-nav-wrap .store-button-back {
+        width: 40px;
         position: absolute;
         top: 40%;
         left: 23%;
         z-index: 100;
     }
     .store-nav-wrap .store-button-forward {
+        width: 40px;
         position: absolute;
         top: 40%;
         right: 23%;
         z-index: 100;
+    }
+    #page7 .brand { 
+        width: 85%;
+        margin: 30px 0 0 0;
+    }
+    #page7 .star {
+        width: 82%;
+        margin: 65px 0 0 80px; 
     }
 
 }
