@@ -1,0 +1,344 @@
+/*!* popup *!*/
+
+.pc {
+    display: block;
+  }
+  .mo {
+    display: none !important;
+  }
+  
+  .layer-popup {
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 2px 3px 10px #555;
+    border-radius: 10px;
+    height: auto !important;
+  }
+  .layer-popup:nth-child(1) {
+    left: 0;
+  }
+  .layer-popup img {
+    width: 100%;
+    height: auto !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .layer-popup .show-chk-wrap {
+    display: flex;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  .layer-popup .show-chk-wrap a {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  #container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  /*content*/
+  .content {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+#page5 {
+    background: url("../img/pg5/background.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+    padding: 0 20px;
+    display: flex;
+}
+#page5 .logo5 {
+    position: absolute;
+    max-width: 100px;
+    width: 70%;
+    margin-top: 20px;
+}
+#page5 #left {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+#page5 .mo .upTit5 {
+    margin: 70px 0 30px 60px !important;
+    max-width: 90%;
+}
+#page5 .mo .middleTit5 {
+    max-width: 180px !important;
+    margin: 0  0 0 65px !important;
+}
+#page5 .mo .pic2 {
+    max-width: 300px !important;
+    margin: -50px 0 30px 0 !important;
+}
+#page5 #right {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+#page5 .upTit5 {
+    max-width: 543px;
+    width: 70%;
+    margin: 100px 70px 0 180px;
+}
+#page5 .pic1 {
+    max-width: 600px;
+    width:85%;
+}
+#page5 .middleTit5 {
+    position:relative;
+    max-width: 355px;
+    width: 70%;
+    margin: 80px 0 0 220px; 
+    z-index: 5;
+}
+#page5 .pic2 {
+    max-width: 600px;
+    width: 85%;
+    z-index: 1;
+    margin: -80px 0 0 100px;
+}
+#page5 .bottomTit5 {
+    max-width:364px;
+    width: 70%;
+    margin: -70px 0 0 130px;
+}
+#page5 .mo .bottomTit5 {
+    max-width: 180px !important;
+    margin: 0 0 0 120px !important;
+}
+#page5 .mo .pic1 {
+    max-width: 300px !important;
+    margin: -50px 0 50px 75px !important;
+}
+#page6 {
+    background-color: #008236;
+    padding: 30px;
+}
+#page6 .frame6 {
+    background: url("../img/pg6/Frame.png");
+    background-size: cover !important;
+    padding: 80px 0;
+    text-align: center;
+}
+#page6 .logo6 {
+    position: absolute;
+    max-width: 100px;
+    width: 70%;
+    margin: 20px;
+}
+#page6 .upTit6 {
+    max-width: 578px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+#page6 .retro {
+    width: 100%;
+    margin-top: 100px;
+}
+.store-swiper-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.store-swiper-container img {
+    width: 100%;
+}
+#page6 .retro {
+    max-width: 500px;
+    width: 70%;
+    margin-top: 60px;
+    width: 70%;
+}
+.store-nav-wrap img {
+    width: 50px;
+} 
+.store-button-back {
+    position: absolute; 
+    top: 40%;
+    left: 30%;
+    z-index: 100;
+}
+.store-button-forward {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    z-index: 100;
+}
+#page6 .mo {
+    background: url("../img/pg6/Frame.png");
+    background-size: cover !important;
+    padding: 0;
+    text-align: center;
+}
+#page6 .mo .upTit6 {
+    width: 90%;
+    margin-top: 60px;
+}
+.store2-swiper-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.store2-swiper-container img {
+    width: 90%;
+}
+.store2-nav-wrap img {
+    width: 40px;
+}
+.store2-nav-wrap .store-button-back {
+    position: absolute; 
+    top: 40%;
+    left: 0;
+    z-index: 100;
+}
+.store2-nav-wrap .store-button-forward {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 100;
+}
+#page6 .mo .retro {
+    margin: 40px 0 50px 0;
+}
+#page7 {
+    background: url("../img/pg7/award.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+#page7 .logo7 {
+    position: absolute;
+    max-width: 100px;
+    width: 70%;
+    margin: 20px;
+}
+#page7 .title7 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#page7 .middleTit7 {
+    max-width: 300px;
+    width: 70%;
+}
+ #page7 .content7 {
+    display: flex;
+    margin: -110px 0 60px 70px;
+}
+#page7 .brand {
+    max-width: 630px; 
+    width: 85%;
+}
+#page7 .star {
+    max-width: 440px; 
+    width: 85%;
+    margin: 60px 0 0 280px; 
+}
+#page7 .cheeze {
+    width: 100%;
+}
+#page8 {
+    background-color: #008236;
+    padding: 30px;
+}
+#page8 .frame8 {
+    background: url("../img/pg6/Frame.png");
+    background-size: cover !important;
+    padding: 80px 0;
+    text-align: center;
+}
+#page8 .logo8 {
+    position: absolute;
+    max-width: 100px;
+    width: 70%;
+    margin: 20px;
+}
+#page8 .middleTit8 {
+    max-width: 700px;
+    width: 70%;
+    margin-bottom: 60px;
+}
+.review-swiper-container img {
+    width: 100%;
+}
+.review-swiper-container {
+    margin-bottom: 120px;
+}
+.review-swiper-pagination {
+    margin-top: 25px;
+}
+#pg8-wrap .review-swiper-pagination-bullet { 
+    background-color: #A6C5B1 !important;
+}
+#pg8-wrap .review-swiper-pagination-bullet-active {
+    background-color: white !important;
+    border: 1px solid #008236 !important;
+}
+#page8 .bottomTit8 {
+    max-width: 490px;
+    width: 70%;
+    margin-bottom: 60px;
+}
+.customer-swiper-container img {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    #page5 {
+        padding:0;
+        display: block;
+    }
+    #page5 #left, #page5 #right {
+        display: none !important;
+    }
+   .mo {
+        display: block !important;
+    }
+    #page5 .logo5 {
+        max-width:50px;
+        width: 70%;
+        margin-left: 20px;
+    }
+    #page6 {
+        padding: 10px;
+    }
+    #page6 .logo6 {
+        max-width:50px;
+        width: 70%;
+        margin: 10px 0 0 10px;
+    } 
+    #page6 .frame6 {
+        display: none;
+    }
+    #page7 .logo7 {
+        max-width: 50px;
+        width: 70%;
+        margin-left: 0;
+    }
+    #page7 .content7 {
+        display: none !important;
+    }
+    #page7 {
+        background: url("../img/pg6/Frame.png") !important;
+        background-size: cover !important;
+        padding: 0;
+        text-align: center;
+    }
+    #page7 .title7 {
+        max-width: 400px;
+    }
+} 
