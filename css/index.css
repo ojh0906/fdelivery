@@ -887,7 +887,8 @@
     width: 90%;
 }
 .store2-nav-wrap img {
-    width: 40px;
+    max-width: 40px;
+    width: 80%;
 }
 .store2-nav-wrap .store-button-back {
     position: absolute; 
@@ -928,7 +929,7 @@
 }
  #page7 .content7 {
     display: flex;
-    margin: -110px 0 60px 90px;
+    margin: -110px 0 80px 80px;
 }
 #page7 .brand {
     max-width: 580px; 
@@ -937,7 +938,7 @@
 #page7 .star {
     max-width: 420px; 
     width: 85%;
-    margin: 60px 0 0 310px; 
+    margin: 60px 0 0 320px; 
 }
 #page7 .cheeze {
     width: 100%;
@@ -1018,7 +1019,7 @@
     #page7 .logo7 {
         max-width: 50px;
         width: 70%;
-        margin-left: 0;
+        margin-left: 20px;
     }
     #page7 .content7 {
         display: none !important;
@@ -1027,9 +1028,8 @@
         background: url("../img/pg6/Frame.png") !important;
         background-size: cover !important;
         padding: 0;
-        text-align: center;
     }
     #page7 .title7 {
-        max-width: 400px;
+        margin: 0;
     }
 } 

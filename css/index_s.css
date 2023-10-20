@@ -237,20 +237,43 @@
 }
  #page7 .content7 {
     display: flex;
-    margin: -110px 0 60px 70px;
+    margin: -110px 0 60px 80px;
 }
 #page7 .brand {
-    max-width: 630px; 
+    max-width: 590px; 
     width: 85%;
 }
 #page7 .star {
-    max-width: 440px; 
+    max-width: 430px; 
     width: 85%;
-    margin: 60px 0 0 280px; 
+    margin: 60px 0 0 300px; 
 }
 #page7 .cheeze {
     width: 100%;
 }
+/* 10.20 add */
+#page7 .mo .cheeze {
+    margin-left: 4s0px;
+}
+#page7 .mo .mo_content7 {
+    display: flex;
+    width: 100%;
+    margin-top: -30px;
+  }
+  .mo_content7 div{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  #page7 .mo .brand {
+    width: 100%;
+    margin: 0 0 50px;
+    margin-left: 20px;
+  }
+  #page7 .mo .star {
+    width: 86%;
+    margin: 22px 0 0 5px;
+  }
 #page8 {
     background-color: #008236;
     padding: 30px;
@@ -271,6 +294,12 @@
     max-width: 700px;
     width: 70%;
     margin-bottom: 60px;
+}
+/* 10.20 add */
+#page8 .mo_middleTit8 {
+    max-width: 200px;
+    width: 70%;
+    margin: 30px 0 30px; 
 }
 .review-swiper-container img {
     width: 100%;
@@ -327,7 +356,7 @@
     #page7 .logo7 {
         max-width: 50px;
         width: 70%;
-        margin-left: 0;
+        margin-left: 20px;
     }
     #page7 .content7 {
         display: none !important;
@@ -336,9 +365,69 @@
         background: url("../img/pg6/Frame.png") !important;
         background-size: cover !important;
         padding: 0;
-        text-align: center;
     }
     #page7 .title7 {
         max-width: 400px;
+        margin: 0;
+    }
+    #page7 .middleTit7 {
+        max-width: 150px;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -75px;
+    }
+    #page7 .cheeze {
+        width: 100%;
+    }
+    #page8 {
+      padding: 10px;  
+    }
+    #page8 .logo8 {
+      max-width: 50px;
+      width: 70%;
+      margin: 10px;
+    }
+    #page8 .middleTit8 {
+      display: none;
+    }
+    .review-swiper-container {
+      margin-bottom: 50px;
+    }
+    #page8 .bottomTit8 {
+      margin-bottom: 30px;
+    }
+    .frame8 {
+      padding: 20px !important;
+    }
+    .review-swiper-pagination-bullet {
+      width: 3px !important;
+      height: 3px !important;
+    }
+    .customer-swiper-pagination-bullet {
+      width: 3px !important;
+      height: 3px !important;
     }
 } 
+
+@media (max-width: 768px) {
+    #page5 .upTit5 {
+        margin-left: 90px;
+    }
+    #page5 
+    .frame6 .upTit6 {
+        margin-top: 30px;
+    }
+    .store-nav-wrap .store-button-back {
+        position: absolute;
+        top: 40%;
+        left: 23%;
+        z-index: 100;
+    }
+    .store-nav-wrap .store-button-forward {
+        position: absolute;
+        top: 40%;
+        right: 23%;
+        z-index: 100;
+    }
+
+}
