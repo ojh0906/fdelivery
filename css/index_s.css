@@ -1,5 +1,10 @@
 /*!* popup *!*/
-
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .pc {
     display: block;
   }
@@ -50,6 +55,55 @@
     text-align: center;
     overflow: hidden;
   }
+  #main {
+    background: url("../img/main/main_background.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+    padding: 0 20px;
+  }
+  .mainUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main .main_upTit {
+    width: 50%;
+    margin-top: 70px;
+  }
+  .three {
+    width: 10%;
+    padding: 0;
+    margin-left: 575px;
+  }
+  .middleContent {
+    margin-top: 320px;
+    display: flex;
+    margin-left: -80px;
+  }
+  .middleContent img {
+    width: 100%;
+  }
+  .lunch_div {
+    width: 50%;
+  }
+  .main_lunch {
+    margin-left: -50px;
+  }
+  .dinner_div {
+    width: 50%;
+  }
+ .main_dinner {
+    margin-left: 120px;
+ }
+ #main .mainBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main_bottomTit {
+    width: 40%;
+ }
 #page5 {
     background: url("../img/pg5/background.png");
     background-size: cover !important;
@@ -379,11 +433,51 @@
     justify-content: center;
     width: 20%;
 }
-#main img {
-    width: 100%;
-}
 #page9 .kimchisoup-wrapper-mo, #page9  .duruchigi-wrapper-mo{
     display: none !important;
+}
+#lastPage {
+    background: url("../img/pg5/background.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    padding: 100px 0 50px;
+}
+#lastPage .logo10 {
+    position: absolute;
+    width: 7%;
+    margin: 40px;
+}
+#contact {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.contactTit {
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+.contactNum {
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    font-size: 28px;
+    color: white;
+}
+.agree {
+    width: 100%;
+}
+.input {
+    width: 50%;
+}
+#contact input[type=text] {
+    width: 60%;
 }
 
 @media (max-width: 480px) {
