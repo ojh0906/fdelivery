@@ -61,7 +61,7 @@
 #page5 .logo5 {
     position: absolute;
     width: 10%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 #page5 #left {
     width: 50%;
@@ -135,12 +135,13 @@
 #page6 .logo6 {
     position: absolute;
     width: 10%;
-    margin: 20px;
+    margin: 40px;
 }
 #page6 .upTit6 {
     max-width: 578px;
     width: 70%;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 #page6 .retro {
     width: 100%;
@@ -221,7 +222,7 @@
 #page7 .logo7 {
     position: absolute;
     width: 10%;
-    margin: 20px;
+    margin: 40px;
 }
 #page7 .title7 {
     text-align: center;
@@ -279,14 +280,15 @@
 #page8 .logo8 {
     position: absolute;
     width: 10%;
-    margin: 20px;
+    margin: 40px;
 }
 #page8 .middleTit8 {
     max-width: 700px;
     width: 70%;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
-/* 10.20 add */
+/* 10.20, 10.22 add */
 #page8 .mo_middleTit8 {
     max-width: 200px;
     width: 70%;
@@ -309,7 +311,7 @@
 .customer-swiper-container img {
     width: 100%;
 }
-/* 10.21 add */
+/* 10.21, 10.22 add */
 #page9 {
     background: #222222;
     padding-bottom: 100px;
@@ -317,7 +319,7 @@
 #page9 .logo9 {
     position: absolute;
     width: 7%;
-    margin: 20px;
+    margin: 40px;
 }
 #page9 .menu {
     text-align: center;
@@ -353,6 +355,9 @@
 .kimchisoup-container img {
     width: 72%;
 }
+.kimchisoup-swiper-container img, .duruchigi-swiper-container img{
+    width: 100%;
+}
 .kimchisoup-container div:first-child {
     display: flex;
     justify-content: flex-end;
@@ -374,9 +379,13 @@
     justify-content: center;
     width: 20%;
 }
-#page14 img {
+#main img {
     width: 100%;
 }
+#page9 .kimchisoup-wrapper-mo, #page9  .duruchigi-wrapper-mo{
+    display: none !important;
+}
+
 @media (max-width: 480px) {
     #page5 {
         padding:0;
@@ -419,13 +428,17 @@
         margin: 0;
     }
     #page7 .middleTit7 {
-        width: 40%;
+        width: 40% !important;
         position: absolute;
-        margin-top: 70px;
-        margin-left: -75px;
+        margin-top: 70px !important;
+        margin-left: -75px !important;
     }
     #page7 .cheeze {
         width: 100%;
+        margin: 0 !important;
+    }
+    #page7 .mo .star {
+        margin-top: 22px !important;
     }
     #page8 {
       padding: 10px;  
@@ -453,6 +466,38 @@
     .customer-swiper-pagination-bullet {
       width: 3px !important;
       height: 3px !important;
+    }
+    .kimchisoup-container {
+        display: none !important;
+    }
+    .duruchigi-container {
+        display: none !important;
+    }
+    #page9 .kimchisoup-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .duruchigi-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .menuTit {
+        width: 80%;
+        margin-top: 80px !important;
+        margin-bottom: 20px;
+    }
+    #page9 .pg9-tit {
+        margin: 40px 0;
+    }
+    #page9 .kimchiTit {
+        width: 15%;
+    }
+    #page9 .logo9 {
+        width: 15% !important;
+    }
+    #page9 .title9 {
+        width: 20%;
+    }
+    #page9 .title9_2 {
+        width: 25%;
     }
 } 
 
@@ -487,13 +532,52 @@
         right: 23%;
         z-index: 100;
     }
-    #page7 .brand { 
-        width: 85%;
-        margin: 30px 0 0 0;
+    #page7 {
+        background: url("../img/pg6/Frame.png")  !important;
     }
-    #page7 .star {
-        width: 82%;
-        margin: 65px 0 0 80px; 
+    #page7 .content7 {
+        display: none !important;
     }
-
+    #page7 .mo {
+        display: block !important;
+    }
+    #page7 .mo .cheeze {
+        margin-top: -265px;
+    }
+    #page7 .middleTit7 {
+        width: 50%; 
+        margin-left: -25px;
+        margin-top: 20px;
+    } 
+    #page7 .mo .star {
+        margin-top: 42px;
+    }
+    .kimchisoup-container {
+        display: none !important;
+    }
+    .duruchigi-container {
+        display: none !important;
+    }
+    #page9 .menuTit {
+        width: 80%;
+        margin-top: 80px;
+    }
+    #page9 .kimchiTit {
+        width: 13%;
+    }
+    #page9 .logo9 {
+        width: 10%;
+    }
+    #page9 .title9 {
+        width: 17%;
+    }
+    #page9 .title9_2 {
+        width: 23%;
+    }
+    #page9 .kimchisoup-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .duruchigi-wrapper-mo {
+        display: block !important;
+    }
 }

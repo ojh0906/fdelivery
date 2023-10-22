@@ -64,7 +64,9 @@
         
     </div>
 </div> -->
-
+<div id="main">
+    <img src="./img/pg14/page14.png" alt="">
+</div>
 <div id="page5">
     <img src="./img/pg5/logo-circle.png" alt="" class="logo5">
     <div id="left">
@@ -222,16 +224,35 @@
     </div>
     <div class="pg9-tit"><img src="./img/pg9/kimchisoup.png" alt="" class="title9"></div>
     <div class="kimchisoup-container">
-        <div><img src="./img/pg9/pg9-kimchisoup.png" alt=""></div>
-        <div><img src="./img/pg9/pg9-kimchisoup(2).png" alt=""></div>
-        <div><img src="./img/pg9/pg9-kimchisoup(3).png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="500"><img src="./img/pg9/pg9-kimchisoup.png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="1000"><img src="./img/pg9/pg9-kimchisoup(2).png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="1500"><img src="./img/pg9/pg9-kimchisoup(3).png" alt=""></div>
+    </div>
+    <div class="kimchisoup-wrapper-mo">   
+        <div class="kimchisoup-swiper-container">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide"><img src="./img/pg9/pg9-kimchisoup.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/pg9/pg9-kimchisoup(2).png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/pg9/pg9-kimchisoup(3).png" alt=""></div>
+            </div>
+        </div>
     </div>
     <div class="pg9-tit"><img src="./img/pg9/duruchigi.png" alt="" class="title9"></div>
     <div class="duruchigi-container">
-        <div><img src="./img/pg9/pg9-duruchigi.png" alt=""></div>
-        <div><img src="./img/pg9/pg9-duruchigi(2).png" alt=""></div>
-        <div><img src="./img/pg9/pg9-duruchigi(3).png" alt=""></div>
-        <div><img src="./img/pg9/pg9-duruchigi(4).png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="500"><img src="./img/pg9/pg9-duruchigi.png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="1000"><img src="./img/pg9/pg9-duruchigi(2).png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="1500"><img src="./img/pg9/pg9-duruchigi(3).png" alt=""></div>
+        <div data-aos="zoom-in-right" data-aos-duration="2000"><img src="./img/pg9/pg9-duruchigi(4).png" alt=""></div>
+    </div>
+    <div class="duruchigi-wrapper-mo">   
+        <div class="duruchigi-swiper-container">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide"><img src="./img/pg9/pg9-duruchigi.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/pg9/pg9-duruchigi(2).png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/pg9/pg9-duruchigi(3).png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/pg9/pg9-duruchigi(4).png" alt=""></div>
+            </div>
+        </div>
     </div>
     <div class="pg9-tit"><img src="./img/pg9/rice.png" alt="" class="title9_2"></div>
     <div class="rice-wrapper">   
@@ -264,9 +285,7 @@
         </div>
     </div>
 </div>
-<div id="page14">
-    <img src="./img/pg14/page14.png" alt="">
-</div>
+
 <!-- 컨텐츠 영역 끝 -->
 
 
@@ -356,27 +375,31 @@ new Swiper('.customer-swiper-container', {
         }
 })
 // breakpoints 10.20 add 
-// 10.21 add
+// 10.21, 10.22 add
 new Swiper('.kimchi-swiper-container', {
-    slidesPerView : '4.8',
+    slidesPerView : '2.2',
     centeredSlides: true,
-    spaceBetween : 50, 
+    spaceBetween : 30, 
     loop: true,
     slideToClickedSlide: true, 
     autoplay: {     //add
-        delay: 2000,   //add
+        delay: 1500,   //add
     }, 
     breakpoints: {
             768: {
-                slidesPerView: '2.2',
-                spaceBetween : 30
+                slidesPerView: '3.3',
+                spaceBetween : 40
+            },
+            1024: {
+                slidesPerView: '4.8',
+                spaceBetween : 50
             }
         }
 })
-new Swiper('.rice-swiper-container', {
-    slidesPerView : '3.7',
+new Swiper('.kimchisoup-swiper-container', {
+    slidesPerView : '1.8',
     centeredSlides: true,
-    spaceBetween : 50, 
+    spaceBetween : 30, 
     loop: true,
     slideToClickedSlide: true, 
     autoplay: {     //add
@@ -384,24 +407,64 @@ new Swiper('.rice-swiper-container', {
     }, 
     breakpoints: {
             768: {
-                slidesPerView: '2.2',
-                spaceBetween : 30
+                slidesPerView: '2.7',
+                spaceBetween : 40
+            },
+        }
+})
+new Swiper('.duruchigi-swiper-container', {
+    slidesPerView : '2.2',
+    centeredSlides: true,
+    spaceBetween : 30, 
+    loop: true,
+    slideToClickedSlide: true, 
+    autoplay: {     //add
+        delay: 2000,   //add
+    }, 
+    breakpoints: {
+            768: {
+                slidesPerView: '3.3',
+                spaceBetween : 40
+            },
+        }
+})
+new Swiper('.rice-swiper-container', {
+    slidesPerView : '1.8',
+    centeredSlides: true,
+    spaceBetween : 30, 
+    loop: true,
+    slideToClickedSlide: true, 
+    autoplay: {     //add
+        delay: 1500,   //add
+    }, 
+    breakpoints: {
+            768: {
+                slidesPerView: '2.7',
+                spaceBetween : 40,
+            },
+            1024: {
+                slidesPerView: '3.7',
+                spaceBetween: 50,
             }
         }
 })
 new Swiper('.side-swiper-container', {
-    slidesPerView : '3.8',
+    slidesPerView : '1.8',
     centeredSlides: true,
-    spaceBetween : 50, 
+    spaceBetween : 30, 
     loop: true,
     slideToClickedSlide: true, 
     autoplay: {     //add
-        delay: 2000,   //add
+        delay: 1500,   //add
     }, 
     breakpoints: {
             768: {
-                slidesPerView: '2.2',
-                spaceBetween : 30
+                slidesPerView: '2.7',
+                spaceBetween : 40,
+            }, 
+            1024: {
+                slidesPerView: '3.8',
+                spaceBetween: 50
             }
         }
 })
