@@ -387,6 +387,7 @@
     background-size: cover !important;
     padding: 80px 0;
     text-align: center;
+    overflow: hidden;
 }
 #page8 .logo8 {
     position: absolute;

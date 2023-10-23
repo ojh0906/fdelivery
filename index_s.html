@@ -355,7 +355,7 @@ new Swiper('.store2-swiper-container', {
     loop: true,
     slideToClickedSlide: true, 
     autoplay: {     //add
-        delay: 2000,   //add
+        delay: 2500,   //add
     }, 
     navigation : {
 		nextEl : '.store-button-forward', 
@@ -366,7 +366,7 @@ new Swiper('.store2-swiper-container', {
 new Swiper('.review-swiper-container', {
     slidesPerView : 3.9,
     centeredSlides: true,
-    spaceBetween : 50, 
+    spaceBetween : 100, 
     loop: true,
     slideToClickedSlide: true, 
     autoplay: {     //add
@@ -421,30 +421,62 @@ new Swiper('.customer-swiper-container', {
 })
 // breakpoints 10.20 add 
 // 10.21, 10.22 add
-new Swiper('.kimchi-swiper-container', {
-    slidesPerView : '4.8',
-    centeredSlides: true,
-    spaceBetween : 50, 
+$(function () {
+
+var menuSlide = new Swiper(".kimchi-swiper-container", {
+    slidesPerView: 4.8,
+    spaceBetween: 50,
     loop: true,
-    slideToClickedSlide: true, 
-    autoplay: {     //add
-        delay: 1500,   //add
-    }, 
+    centeredSlides: true,
+    pagination: {
+    el: '.swiper-pagination',
+    },
+
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
     breakpoints: {
-            480: {
-                slidesPerView : '2.7',
-                spaceBetween : 30
-            },
-            768: {
-                slidesPerView: '3.3',
-                spaceBetween : 40
-            },
-            1024: {
-                slidesPerView: '4.8',
-                spaceBetween : 50
-            }
-        }
-})
+        0: {
+            slidesPerView: 2.7,
+            spaceBetween: 30
+        },
+        768: {
+            slidesPerView: 3.3,
+            spaceBetween: 40
+        },
+        1024: {
+            slidesPerView: 7.8,
+            spaceBetween: 50
+        },
+    }
+});
+
+}); 
+// new Swiper('.kimchi-swiper-container', {
+//     slidesPerView : '4.8',
+//     centeredSlides: true,
+//     spaceBetween : 50, 
+//     loop: true,
+//     slideToClickedSlide: true, 
+//     autoplay: {     //add
+//         delay: 1500,   //add
+//     }, 
+//     breakpoints: {
+//             480: {
+//                 slidesPerView : '2.7',
+//                 spaceBetween : 30
+//             },
+//             768: {
+//                 slidesPerView: '3.3',
+//                 spaceBetween : 40
+//             },
+//             1024: {
+//                 slidesPerView: '4.8',
+//                 spaceBetween : 50
+//             }
+//         }
+// })
 new Swiper('.kimchisoup-swiper-container', {
     slidesPerView : '1.8',
     centeredSlides: true,
@@ -487,7 +519,7 @@ new Swiper('.rice-swiper-container', {
         delay: 1500,   //add
     }, 
     breakpoints: {
-            480: {
+        480: {
                 slidesPerView : '1.2',
                 spaceBetween : 30
             },
