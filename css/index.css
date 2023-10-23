@@ -99,7 +99,7 @@
   width: 22%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .logo1{
     width: 15%;
     top: 1%;
@@ -248,7 +248,7 @@
 .tit_mobile{
   position: absolute;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .three_mo{
     display: none;
   }
@@ -286,9 +286,12 @@
     display: none;
   }
 }
-@media (max-width: 480px) {
-  .page1, .page2, .page4, .page11{
-    height: 720px;
+@media (max-width: 768px) {
+  .page1, .page2, .page11{
+    height: 870px;
+  }
+  .page4{
+    height: 1024px;
   }
   /*page2*/
   .focus{
