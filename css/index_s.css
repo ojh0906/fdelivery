@@ -1,5 +1,10 @@
 /*!* popup *!*/
-
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .pc {
     display: block;
   }
@@ -50,6 +55,110 @@
     text-align: center;
     overflow: hidden;
   }
+  #main {
+    background: url("../img/main/main_background.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+    padding: 0 20px;
+  }
+  .mainUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main .main_upTit {
+    width: 50%;
+    margin-top: 70px;
+  }
+  .three {
+    width: 10%;
+    padding: 0;
+    margin-left: 575px;
+  }
+  .middleContent {
+    margin-top: 320px;
+    display: flex;
+    margin-left: -80px;
+  }
+  .middleContent img {
+    width: 100%;
+  }
+  .lunch_div {
+    width: 50%;
+  }
+  .main_lunch {
+    margin-left: -50px;
+  }
+  .dinner_div {
+    width: 50%;
+  }
+ .main_dinner {
+    margin-left: 120px;
+ }
+ #main .mainBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main_bottomTit {
+    width: 40%;
+ }
+ .mo_main {
+    display: none !important;
+ }
+ .mo_main {
+    background: linear-gradient(#000000, #00000000, #00000000, #000000), url("../img/main/mo_main.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat;
+ }
+ .mo_main .main_logo {
+    max-width: 60px;
+    position: absolute;
+    margin: 40px;
+ }
+ .mo_main .mo_mainUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+ }
+ .mo_threeMeal {
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000000, #000000, #00000000, #00000000);
+ }
+ .mo_mainUptit {
+    width: 60%;
+    margin-top: 100px;
+    background: black;
+ }
+ .mo_three {
+    width: 40%;
+    margin-bottom: 90px;
+ }
+ .mo_middleContent {
+    margin-top: 250px;
+    display: flex;
+    background: linear-gradient(#00000000, #00000000, #00000000, #00000000); 
+  }
+  .mo_middleContent img {
+    width: 45%;
+    background: linear-gradient(#00000000, #00000000, #00000000, #00000000); 
+    margin-left: 60px;
+  }
+  .MomainBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Momain_bottomTit {
+    width: 60%;
+    
+  }
 #page5 {
     background: url("../img/pg5/background.png");
     background-size: cover !important;
@@ -60,9 +169,8 @@
 }
 #page5 .logo5 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
-    margin-top: 20px;
+    width: 10%;
+    margin-top: 40px;
 }
 #page5 #left {
     width: 50%;
@@ -71,7 +179,7 @@
     position: relative;
 }
 #page5 .mo .upTit5 {
-    margin: 70px 0 30px 60px !important;
+    margin: 100px 0 30px 60px !important;
     max-width: 90%;
 }
 #page5 .mo .middleTit5 {
@@ -135,14 +243,14 @@
 }
 #page6 .logo6 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
-    margin: 20px;
+    width: 10%;
+    margin: 40px;
 }
 #page6 .upTit6 {
     max-width: 578px;
     width: 70%;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 #page6 .retro {
     width: 100%;
@@ -222,9 +330,8 @@
 }
 #page7 .logo7 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
-    margin: 20px;
+    width: 10%;
+    margin: 40px;
 }
 #page7 .title7 {
     text-align: center;
@@ -232,25 +339,43 @@
     margin-left: 30px;
 }
 #page7 .middleTit7 {
-    max-width: 300px;
-    width: 70%;
+    /* max-width: 300px; */
+    width: 30%;
 }
  #page7 .content7 {
     display: flex;
-    margin: -110px 0 60px 70px;
+    margin: -110px 0 60px 80px;
 }
-#page7 .brand {
-    max-width: 630px; 
+#page7 .brand { 
     width: 85%;
 }
 #page7 .star {
-    max-width: 440px; 
     width: 85%;
-    margin: 60px 0 0 280px; 
+    margin: 60px 0 0 300px; 
 }
 #page7 .cheeze {
     width: 100%;
 }
+/* 10.20 add */
+#page7 .mo .mo_content7 {
+    display: flex;
+    width: 100%;
+    margin-top: -30px;
+  }
+  .mo_content7 div{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  #page7 .mo .brand {
+    width: 100%;
+    margin: 0 0 50px;
+    margin-left: 20px;
+  }
+  #page7 .mo .star {
+    width: 86%;
+    margin: 22px 0 0 5px;
+  }
 #page8 {
     background-color: #008236;
     padding: 30px;
@@ -263,14 +388,20 @@
 }
 #page8 .logo8 {
     position: absolute;
-    max-width: 100px;
-    width: 70%;
-    margin: 20px;
+    width: 10%;
+    margin: 40px;
 }
 #page8 .middleTit8 {
     max-width: 700px;
     width: 70%;
     margin-bottom: 60px;
+    margin-top: 20px;
+}
+/* 10.20, 10.22 add */
+#page8 .mo_middleTit8 {
+    max-width: 200px;
+    width: 70%;
+    margin: 30px 0 30px; 
 }
 .review-swiper-container img {
     width: 100%;
@@ -281,13 +412,6 @@
 .review-swiper-pagination {
     margin-top: 25px;
 }
-#pg8-wrap .review-swiper-pagination-bullet { 
-    background-color: #A6C5B1 !important;
-}
-#pg8-wrap .review-swiper-pagination-bullet-active {
-    background-color: white !important;
-    border: 1px solid #008236 !important;
-}
 #page8 .bottomTit8 {
     max-width: 490px;
     width: 70%;
@@ -296,11 +420,200 @@
 .customer-swiper-container img {
     width: 100%;
 }
-
+/* 10.21, 10.22 add */
+#page9 {
+    background: #222222;
+    padding-bottom: 100px;
+}
+#page9 .logo9 {
+    position: absolute;
+    width: 7%;
+    margin: 40px;
+}
+#page9 .menu {
+    text-align: center;
+}
+.menuTit {
+    width: 60%;
+    margin: 50px 0 30px;
+}
+.pg9-tit {
+    text-align: center;
+    margin: 70px 0;
+}
+.kimchiTit {
+    width: 9%;
+}
+.kimchi-swiper-container, .rice-swiper-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.kimchi-swiper-container img, .rice-swiper-container img, .side-swiper-container img {
+    width: 100%;
+}
+.title9 {
+    width: 12%;
+}
+.title9_2 {
+    width: 15%;
+}
+.kimchisoup-container {
+    display: flex;
+}
+.kimchisoup-container img {
+    width: 72%;
+}
+.kimchisoup-swiper-container img, .duruchigi-swiper-container img{
+    width: 100%;
+}
+.kimchisoup-container div:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+.kimchisoup-container div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.duruchigi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duruchigi-container img {
+    width: 91%;
+}
+.duruchigi-container div {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+#page9 .kimchisoup-wrapper-mo, #page9  .duruchigi-wrapper-mo{
+    display: none !important;
+}
+#lastPage {
+    background: url("../img/pg5/background.png");
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-repeat: no-repeat; 
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    padding: 0 0 50px;
+}
+#lastPage .logo10 {
+    position: absolute; 
+    width: 7%;
+    margin: 40px;
+}
+.lastpg_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastpg_tit {
+    width: 18%;
+    margin-top: 100px;
+}
+#contact {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.contactTit {
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+.contactNum {
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    font-size: 28px;
+    color: white;
+}
+.agree {
+    width: 900px;
+    font-size: 20px;
+    font-weight: 300 !important;
+    color: white;
+    border: 1px solid #FFF;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.label {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    width: 20%;
+    width: 140px;
+}
+.input {
+    width: 300px;
+}
+.input2 {
+    width: 140px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#contact input[type=text] {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #00FA6A;
+    background: #094;
+    padding: 10px 15px;
+    margin: 30px 0;
+}
+#contact textarea {
+    resize: none;
+    border: 1px solid #00FA6A;
+    background: #094;
+}
+.lastpg_btn {
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    background: #0B2E19;
+    color: white;
+    font-family: 'GongGothicMedium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.lastpg_bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+.contactNumber {
+    width: 10%;
+    margin-right: 40px;
+}
+.footer {
+    width: 100%;
+}
 @media (max-width: 480px) {
+    #main {
+        display: none !important;
+    }
+    .mo_main {
+        display: block !important;
+    }
+    .Molunch_div {
+        margin: 0 !important;
+    }
     #page5 {
         padding:0;
         display: block;
+    }
+    #page5 .logo5 {
+        width:30%;
+        margin: 40px;
     }
     #page5 #left, #page5 #right {
         display: none !important;
@@ -308,26 +621,24 @@
    .mo {
         display: block !important;
     }
-    #page5 .logo5 {
-        max-width:50px;
-        width: 70%;
-        margin-left: 20px;
-    }
     #page6 {
         padding: 10px;
     }
     #page6 .logo6 {
-        max-width:50px;
-        width: 70%;
-        margin: 10px 0 0 10px;
+        width: 25%;
+        margin: 10px 20px;
     } 
     #page6 .frame6 {
         display: none;
     }
+    #page6 .upTit6 {
+        margin-top: 70px !important;
+    }
     #page7 .logo7 {
-        max-width: 50px;
+        max-width: 60px;
         width: 70%;
-        margin-left: 0;
+        margin-left: 20px;
+        margin-top: 20px;
     }
     #page7 .content7 {
         display: none !important;
@@ -336,9 +647,171 @@
         background: url("../img/pg6/Frame.png") !important;
         background-size: cover !important;
         padding: 0;
-        text-align: center;
     }
     #page7 .title7 {
         max-width: 400px;
+        margin: 0;
+    }
+    #page7 .middleTit7 {
+        width: 40% !important;
+        position: absolute;
+        margin-top: 70px !important;
+        margin-left: -75px !important;
+    }
+    #page7 .cheeze {
+        width: 100%;
+        margin: 0 !important;
+    }
+    #page7 .mo .star {
+        margin-top: 22px !important;
+    }
+    #page8 {
+      padding: 10px;  
+    }
+    #page8 .logo8 {
+      width: 15%;
+      margin: 10px;
+    }
+    #page8 .middleTit8 {
+      display: none;
+    }
+    .review-swiper-container {
+      margin-bottom: 50px;
+    }
+    #page8 .bottomTit8 {
+      margin-bottom: 30px;
+    }
+    .frame8 {
+      padding: 20px !important;
+    }
+    .review-swiper-pagination-bullet {
+      width: 3px !important;
+      height: 3px !important;
+    }
+    .customer-swiper-pagination-bullet {
+      width: 3px !important;
+      height: 3px !important;
+    }
+    .kimchisoup-container {
+        display: none !important;
+    }
+    .duruchigi-container {
+        display: none !important;
+    }
+    #page9 .kimchisoup-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .duruchigi-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .menuTit {
+        width: 80%;
+        margin-top: 110px !important;
+        margin-bottom: 20px;
+    }
+    #page9 .pg9-tit {
+        margin: 40px 0;
+    }
+    #page9 .kimchiTit {
+        width: 15%;
+    }
+    #page9 .logo9 {
+        width: 15% !important;
+    }
+    #page9 .title9 {
+        width: 20%;
+    }
+    #page9 .title9_2 {
+        width: 25%;
     }
 } 
+
+@media (max-width: 768px) {
+    #main {
+        display: none !important;
+    }
+    .mo_main {
+        display: block !important;
+    }
+    .Molunch_div {
+        margin-left: 60px;
+    }
+    #page5 .upTit5 {
+        margin-left: 90px;
+    }
+    #page5 .pic2 {
+        margin-left: 50px;
+    }
+    #page5 .middleTit5 {
+        margin-left: 80px;
+    }
+    #page5 .bottomTit5 {
+        width: 80%;
+        margin: -40px 0 0 10px;
+    }
+    .frame6 .upTit6 {
+        margin-top: 30px !important;
+    }
+    .store-nav-wrap .store-button-back {
+        width: 40px;
+        position: absolute;
+        top: 40%;
+        left: 23%;
+        z-index: 100;
+    }
+    .store-nav-wrap .store-button-forward {
+        width: 40px;
+        position: absolute;
+        top: 40%;
+        right: 23%;
+        z-index: 100;
+    }
+    #page7 {
+        background: url("../img/pg6/Frame.png")  !important;
+    }
+    #page7 .content7 {
+        display: none !important;
+    }
+    #page7 .mo {
+        display: block !important;
+    }
+    #page7 .mo .cheeze {
+        margin-top: -265px;
+    }
+    #page7 .middleTit7 {
+        width: 50%; 
+        margin-left: -25px;
+        margin-top: 20px;
+    } 
+    #page7 .mo .star {
+        margin-top: 42px;
+    }
+    .kimchisoup-container {
+        display: none !important;
+    }
+    .duruchigi-container {
+        display: none !important;
+    }
+    #page9 .menuTit {
+        width: 80%;
+        margin-top: 80px;
+    }
+    #page9 .kimchiTit {
+        width: 13%;
+    }
+    #page9 .logo9 {
+        width: 10%;
+    }
+    #page9 .title9 {
+        width: 17%;
+    }
+    #page9 .title9_2 {
+        width: 23%;
+    }
+    #page9 .kimchisoup-wrapper-mo {
+        display: block !important;
+    }
+    #page9 .duruchigi-wrapper-mo {
+        display: block !important;
+    }
+}
