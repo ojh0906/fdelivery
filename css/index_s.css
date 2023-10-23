@@ -234,6 +234,7 @@
 #page6 {
     background-color: #008236;
     padding: 30px;
+    overflow: hidden;
 }
 #page6 .frame6 {
     background: url("../img/pg6/Frame.png");
@@ -379,6 +380,7 @@
 #page8 {
     background-color: #008236;
     padding: 30px;
+    overflow: hidden;
 }
 #page8 .frame8 {
     background: url("../img/pg6/Frame.png");
@@ -424,6 +426,7 @@
 #page9 {
     background: #222222;
     padding-bottom: 100px;
+    overflow: hidden;
 }
 #page9 .logo9 {
     position: absolute;
@@ -668,6 +671,9 @@
     #page8 {
       padding: 10px;  
     }
+    #page8 .frame8 {
+        padding: 5%;
+    }
     #page8 .logo8 {
       width: 15%;
       margin: 10px;
@@ -786,6 +792,9 @@
     #page7 .mo .star {
         margin-top: 42px;
     }
+    #page8 .frame8 {
+        padding: 5%;
+    }
     .kimchisoup-container {
         display: none !important;
     }
@@ -794,7 +803,7 @@
     }
     #page9 .menuTit {
         width: 80%;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     #page9 .kimchiTit {
         width: 13%;
